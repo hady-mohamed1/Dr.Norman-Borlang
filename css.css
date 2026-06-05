@@ -1,0 +1,53 @@
+*{
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+
+}
+.article{
+    background-color: #EEEDEB;
+    padding: 10px;
+    text-align: center;
+}
+
+.head{
+    padding: 10px;
+}
+.img{
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.img img{
+    width: 90%;
+}
+figcaption{
+    margin: 15px 0 5px 0;
+}
+h2{
+margin: 50px;
+text-align: center;
+}
+.list{
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+@media (max-width: 900px) {
+    .list{
+      width: 90%;
+    }}
+li{
+    margin: 15px;
+}
+.quote{
+    font-style: italic;
+}
+.contact{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
